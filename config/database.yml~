@@ -1,3 +1,4 @@
+<<<<<<< HEAD:config/database.yml~
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -30,3 +31,20 @@ test: &test
 
 cucumber:
   <<: *test
+=======
+development:
+  adapter: postgresql
+  database: DaK_development
+  pool: 5
+  timeout: 5000
+  username: fenix
+  password:
+
+test:
+  adapter: postgresql
+  database: DaK_test
+  pool: 5
+  timeout: 5000
+  username: fenix
+  password:
+>>>>>>> new:config/database.yml
