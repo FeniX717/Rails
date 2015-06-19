@@ -4,7 +4,9 @@ development:
   pool: 5
   timeout: 5000
   username: ****
+  slonik
   password: ****
+
 
 test:
   adapter: postgresql
