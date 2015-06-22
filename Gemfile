@@ -18,4 +18,5 @@ group :test do
   gem 'database_cleaner'
   gem 'timecop'
   gem 'simplecov', require: false
+  gem "codeclimate-test-reporter", require: nil
 end
