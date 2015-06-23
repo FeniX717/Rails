@@ -8,6 +8,7 @@ group :development, :test do
   gem 'annotate', '~> 2.6.5'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'devise'
 end
 
 group :test do
