@@ -14,4 +14,16 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
+  config.action_mailer.delivery_method = :smtp
+
+  ActionMailer::Base.smtp_settings = {
+      :address => "smtp.gmail.com",
+      :port => 587,
+      :authentication => :plain,
+      :domain => 'localhost:3000',
+      :user_name => 'dimanado228@gmail.com',
+      :password => 'cosasinatgactga1',
+      :enable_starttls_auto => true
+   }
+
 end
