@@ -8,10 +8,13 @@ group :development, :test do
   gem 'annotate', '~> 2.6.5'
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'devise_token_auth'
+  gem 'omniauth'
 end
 
 group :test do
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'factory_girl_rails'
   gem 'pry-rails'
   gem 'pry-byebug'
@@ -19,4 +22,6 @@ group :test do
   gem 'timecop'
   gem 'simplecov', require: false
   gem 'codeclimate-test-reporter', require: nil
+  gem 'faker'
+  gem 'selenium-webdriver'
 end
