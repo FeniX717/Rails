@@ -201,6 +201,7 @@ DEPENDENCIES
   capybara
   codeclimate-test-reporter
   database_cleaner
+  devise
   devise_token_auth
   factory_girl_rails
   faker

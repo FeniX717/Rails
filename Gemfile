@@ -10,6 +10,7 @@ group :development, :test do
   gem 'spring'
   gem 'devise_token_auth'
   gem 'omniauth'
+  gem 'devise'
 end
 
 group :test do
